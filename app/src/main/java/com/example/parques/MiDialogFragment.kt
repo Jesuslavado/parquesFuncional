@@ -7,8 +7,8 @@ import androidx.fragment.app.DialogFragment
 class MiDialogFragment: DialogFragment()  {
     override fun onCreateDialog(savedInstanceState: Bundle?): Dialog {
         return activity.let {
-            val title = "Título del diálogo"
-            val content = "Texto del cuadro de diálogo"
+            val title = "Confirmacion"
+            val content = "¿Quieres guardar los datos?"
             val builder:AlertDialog.Builder=AlertDialog.Builder(requireActivity())
             builder.setTitle(title).setMessage(content)
                 .setPositiveButton(android.R.string.ok)  {dialog, which ->

@@ -2,8 +2,8 @@
     <!-- Base application theme. -->
     <style name="Base.Theme.Parques" parent="Theme.Material3.DayNight.NoActionBar">
         <!-- Customize your light theme here. -->
-        <item name="colorPrimary">#FF5722</item> -->
-        <item name="colorPrimaryDark">#E64A19</item>
+        <item name="colorPrimary">#FF335B</item> -->
+        <item name="colorPrimaryDark">#5BFF33</item>
     </style>
 
     <style name="Theme.Parques" parent="Base.Theme.Parques" />
